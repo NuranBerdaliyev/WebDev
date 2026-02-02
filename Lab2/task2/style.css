@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+}
+
+/* ГЛАВНЫЙ КОНТЕЙНЕР */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+}
+
+.vertical-line {
+  width: 1px;
+  background: #dbdbdb;
+  margin: 0 40px;
+}
+
+
+
+/* ЛЕВАЯ ЧАСТЬ */
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.insta-icon {
+  width: 40px;
+}
+
+
+
+.promo img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.promo p {
+  font-size: 22px;
+  color: #262626;
+  line-height: 1.3;
+}
+
+/* ГРАДИЕНТ КАК У INSTAGRAM */
+.gradient {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* ПРАВАЯ ЧАСТЬ */
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+
+.login-card h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background: #0095f6;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forgot {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+/* РАЗДЕЛИТЕЛЬ */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #dbdbdb;
+}
+
+.divider p {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+/* ССЫЛКИ */
+.facebook {
+  display: block;
+  color: #385185;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.signup {
+  display: block;
+  color: #0095f6;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+/* META */
+.meta {
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.infinity {
+  color: #0095f6;
+  font-weight: bold;
+}
