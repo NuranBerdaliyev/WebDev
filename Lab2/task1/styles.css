@@ -133,3 +133,29 @@ input {
 input::placeholder {
   color: #8a8d91;
 }
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #606770;
+}
+
+.site-footer a {
+    color: #1877f2;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
+.site-footer .languages {
+    margin-bottom: 8px;
+}
+
+.site-footer .footer-links {
+    margin-bottom: 8px;
+}
+
