@@ -1,0 +1,15 @@
+.categories {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.categories button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.categories button.active {
+  background: black;
+  color: white;
+}

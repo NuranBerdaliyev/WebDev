@@ -83,4 +83,15 @@ export class ProductList {
     const url = `https://t.me/share/url?url=${urlEncoded}&text=${textEncoded}`;
     window.open(url, '_blank');
   };
+  copy_products: Product[]=[...this.products]
+  sorting_asc(){
+    
+    this.products=[...this.products].sort((a, b)=>a.price - b.price);
+  }
+  sorting_desc(){
+    this.products=[...this.products].sort((a, b)=>b.price-a.price);
+  }
+  reset(){
+    this.products=this.copy_products;
+  }
 }

@@ -1,0 +1,15 @@
+@if (displayedProducts().length === 0) {
+  <p>No products in this category</p>
+}
+
+<div class="grid">
+  @for (product of displayedProducts(); track product.id) {
+    <app-product-item
+      [product]="product"
+      (delete)="removeProduct($event)">
+    </app-product-item>
+    
+  }
+  
+</div>
+<button (click)="reset()">Reset List</button>
