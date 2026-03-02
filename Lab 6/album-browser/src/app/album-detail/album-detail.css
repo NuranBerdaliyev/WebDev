@@ -1,0 +1,58 @@
+:host {
+  display: block;
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+h3 {
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 16px;
+  color: #6b7280;
+}
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:first-of-type {
+  background: #10b981;
+  color: white;
+}
+
+button:first-of-type:hover {
+  background: #059669;
+}
+
+button:last-of-type {
+  background: #6b7280;
+  color: white;
+}
+
+button:last-of-type:hover {
+  background: #4b5563;
+}
+
+a {
+  display: inline-block;
+  margin-right: 12px;
+  text-decoration: none;
+  color: #3b82f6;
+}

@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  gap: 24px;
+  padding: 16px 24px;
+  background: #1f2937;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+  cursor: pointer; /* ← делает курсор стрелкой */
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+nav a.active {
+  border-bottom: 2px solid #60a5fa;
+  padding-bottom: 4px;
+}
+
+router-outlet {
+  display: block;
+  padding: 24px;
+}

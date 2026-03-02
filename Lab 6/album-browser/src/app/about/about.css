@@ -1,0 +1,16 @@
+:host {
+  display: block;
+  padding: 32px 24px;
+  max-width: 600px;
+  margin: 0 auto;
+  cursor: default;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin-bottom: 8px;
+  color: #374151;
+}
